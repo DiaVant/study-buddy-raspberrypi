@@ -1,5 +1,5 @@
-# rPPG and Pomodoro Study Buddy powered by Raspberry Pi
-A study companion that combines remote heart rate monitoring with an adaptive Pomodoro timer to promote healthier and more effective studying. Using rPPG technology through the Pi camera, the system passively tracks the user’s pulse, delivering intelligent break reminders. Calm mode delivers guided box breathing through blue visual cues and a handheld motor pulsing at 60 BPM. This multi-sensory feedback helps users regulate breathing, lower heart rate, and transition out of high-stress states. Pomodoro focus mode is completely customizable and features study sound tracks.
+# rPPG and Pomodoro Study Buddy on Raspberry Pi
+A study companion that combines remote heart rate monitoring with an adaptive Pomodoro timer to promote healthier and more effective studying. Using rPPG technology through the Pi camera, the system passively **tracks the user’s heart rate**, delivering intelligent break reminders. Calm mode delivers guided **box breathing through blue visual cues and a handheld motor pulsing at 60 BPM**. This multi-sensory feedback helps users regulate breathing, lower heart rate, and transition out of high-stress states. Pomodoro focus mode is completely customizable and features study sound tracks.
 
 <p align="center">
   <img src="SS/piSetup.JPEG" alt="Pi-setup" width=600/>
