@@ -143,7 +143,7 @@ def Start():
 
 _curSongInd = 0
 def playSong(ind):
-    mixer.music.load(song_list[ind] )
+    mixer.music.load("audio/" + song_list[ind] )
     mixer.music.play(loops=-1)
     print(f"Now playing: {song_list[_curSongInd]}" )
 def songController():
