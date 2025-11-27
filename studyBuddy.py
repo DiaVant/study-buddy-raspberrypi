@@ -10,7 +10,7 @@ import Heartrate
 import subprocess
 
 
-_topHeartRate = 120
+_topHeartRate = 0
 
 class S(Enum):
     OFF = -1
@@ -129,6 +129,7 @@ def Start():
 
     if ( _totalStudyTime == 0):
         age = int(input("How old are you? ") )
+        _topHeartRate = (220-age) * .6
 
     _maxStudy = mts(int(input("How long do you want to study today? (minutes) ") )) 
     _maxBreak = mts(int(input("How long do you want to go on break for between study blocks? (minutes) ") )) 
